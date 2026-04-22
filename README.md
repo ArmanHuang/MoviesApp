@@ -1,7 +1,3 @@
-Siap, ini aku bikinkan versi **README untuk Movie App kamu** yang **mirip struktur contoh News App** tapi sudah disesuaikan dengan project kamu 👇
-
----
-
 # 🎬 Movie App (Flutter)
 
 Aplikasi mobile berbasis Flutter yang menampilkan daftar film dari Public API dengan fitur pencarian, filter kategori, serta dukungan offline menggunakan caching.
