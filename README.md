@@ -4,7 +4,7 @@ Aplikasi mobile berbasis Flutter yang menampilkan daftar film dari Public API de
 
 ---
 
-# 📌 Deskripsi Proyek
+# Deskripsi Proyek
 
 Aplikasi ini dikembangkan sebagai bagian dari **Ujian Tengah Semester (UTS)** pada mata kuliah *Mobile Application Development (Flutter)*.
 
@@ -17,15 +17,15 @@ Fokus utama proyek ini adalah:
 
 ---
 
-# 🚀 Fitur Utama
+# Fitur Utama
 
-## 1. 🔍 Search Movie
+## 1. Search Movie
 
 Pengguna dapat mencari film berdasarkan judul secara real-time menggunakan fitur pencarian.
 
 ---
 
-## 2. 🎯 Filter Kategori
+## 2. Filter Kategori
 
 Pengguna dapat memfilter film berdasarkan kategori:
 
@@ -35,7 +35,7 @@ Pengguna dapat memfilter film berdasarkan kategori:
 
 ---
 
-## 3. 📦 Offline Caching
+## 3. Offline Caching
 
 * Data film disimpan secara lokal menggunakan **SharedPreferences**
 * Saat tidak ada koneksi internet:
@@ -45,7 +45,7 @@ Pengguna dapat memfilter film berdasarkan kategori:
 
 ---
 
-## 4. ⚠️ Error Handling
+## 4. Error Handling
 
 * Menampilkan pesan user-friendly saat API gagal
 * Menghindari error crash
@@ -53,13 +53,13 @@ Pengguna dapat memfilter film berdasarkan kategori:
 
 ---
 
-## 5. ⏳ Loading State
+## 5. Loading State
 
 Menggunakan **Loading Widget (CircularProgressIndicator / custom widget)** untuk memberikan pengalaman pengguna yang lebih smooth saat data dimuat.
 
 ---
 
-## 6. ♻️ Reusable Widgets
+## 6. Reusable Widgets
 
 Menggunakan komponen UI yang dapat digunakan kembali:
 
@@ -68,7 +68,7 @@ Menggunakan komponen UI yang dapat digunakan kembali:
 
 ---
 
-# 🏗️ Arsitektur & Struktur Folder
+# Arsitektur & Struktur Folder
 
 Aplikasi ini menggunakan **Modular Architecture** dengan pemisahan tanggung jawab:
 
@@ -84,7 +84,7 @@ lib/
 
 ---
 
-# 🛠️ Teknologi yang Digunakan
+# Teknologi yang Digunakan
 
 * Flutter
 * Dart
@@ -94,7 +94,7 @@ lib/
 
 ---
 
-# ⚙️ Cara Kerja Aplikasi
+# Cara Kerja Aplikasi
 
 1. Aplikasi mengambil data dari **Public Movie API (TMDB)**
 2. Data ditampilkan dalam bentuk list film
@@ -107,7 +107,7 @@ lib/
 
 ---
 
-## 👤 User dapat melakukan:
+## User dapat melakukan:
 
 * 🔍 Search movie
 * 🎯 Filter kategori
@@ -116,7 +116,7 @@ lib/
 
 ---
 
-# 🧠 Alasan Pemilihan State Management
+# Alasan Pemilihan State Management
 
 Proyek ini menggunakan **Provider** karena:
 
@@ -128,7 +128,7 @@ Proyek ini menggunakan **Provider** karena:
 
 ---
 
-# ▶️ Cara Menjalankan Project
+# Cara Menjalankan Project
 
 ```bash
 git clone <https://github.com/username/movie_app.git>
@@ -139,7 +139,7 @@ flutter run
 
 ---
 
-# 🧪 Testing Offline Mode
+# Testing Offline Mode
 
 1. Jalankan aplikasi dalam kondisi online
 2. Pastikan data sudah muncul
@@ -152,7 +152,7 @@ flutter run
 
 ---
 
-# 🎯 Penutup
+# Penutup
 
 Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang optimal dengan:
 
